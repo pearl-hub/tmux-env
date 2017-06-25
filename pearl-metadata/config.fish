@@ -1,4 +1,4 @@
-set -x $TMUX_ENVS_DIR $PEARL_PKGVARDIR
+set -x TMUX_ENVS_DIR $PEARL_PKGVARDIR
 
 if [ -n "$TMUX" ]
     set TMUX_SESSION_NAME (tmux display-message -p '#S')
